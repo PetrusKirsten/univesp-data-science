@@ -1,17 +1,17 @@
-# Prerequisites
+# C/C++ prerequisites
 *.d
 
-# Compiled Object files
+# C/C++ compiled object files
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
+# C/C++ precompiled headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# C/C++ compiled dynamic libraries
 *.so
 *.dylib
 *.dll
@@ -20,7 +20,7 @@
 *.mod
 *.smod
 
-# Compiled Static libraries
+# C/C++ compiled static libraries
 *.lai
 *.la
 *.a
@@ -30,3 +30,29 @@
 *.exe
 *.out
 *.app
+
+# Build folders
+build/
+bin/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets and database files
+*.sqlite
+*.sqlite3
+*.db
+*.duckdb
+
+# Operating system files
+.DS_Store
+Thumbs.db
